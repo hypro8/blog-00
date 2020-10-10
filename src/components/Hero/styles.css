@@ -1,0 +1,55 @@
+:root {
+    --hero-image-url: url(../../assets/lavender.jpg);
+}
+
+.hero-banner {
+    /* display: block; */
+    /* display: inline-flex; */
+    /* Used if the image is unavailable */
+    border: 3px solid rgb(55, 196, 20);
+
+    /* background: url(../../assets/lavender.jpg) no-repeat; */
+    width: 100%;
+    /* Do not repeat the image */
+    /* background-repeat: no-repeat;  */
+    /* Resize the background image to cover the entire container */
+    /* background-size: cover;  */
+    position: relative;
+    /* opacity: 0.1; */
+}
+
+.hero-banner-img img {
+    /* background: var(--hero-image-url) no-repeat center; */
+    /* clip: rect(20px 700px 300px 0px); */
+
+    height: 350px; 
+    width: auto;
+    /* max-width: 100%; */
+    margin: auto;
+    /* background-attachment: local; */
+    /* Resize the background image to cover the entire container */
+    /* background-size: cover;  */
+    position: relative;
+    opacity: 0.9;
+    border: 3px solid red;
+
+}
+
+.hero-banner-img {
+    position: relative;
+    border: 1px solid cyan;
+
+}
+
+.hero-banner-container {
+    height: 50px; 
+    width: 100px;
+    /* margin: auto; */
+    /* background-attachment: local; */
+    /* Resize the background image to cover the entire container */
+    /* background-size: cover;  */
+    position: relative;
+    opacity: 0.5;
+    border: 3px solid red;
+
+}
